@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فروشگاه اینترنتی دیجی کالا</title>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+    <div>
+        <!-- 3 Part of Header -->
+        <div class="flex flex-col  shadow-md">
+            <!-- Header Section : Top Banner -->
+            <div>
+                <img src="images/top-banner.gif" alt="">
+            </div>
+
+            <!-- Header Section : Logo and Search Box -->
+            <div class="flex px-[20px] py-[10px]">
+                <!-- Logo -->
+                <div class="flex-none">
+                    <div class="flex">
+                        <img src="images/logo.svg" alt="">
+                        <input type="text" class="p-2 bg-gray-200 ms-3 rounded-lg w-[300px]" placeholder="جستجو">
+                    </div>
+                </div>
+
+                <!-- Spacer -->
+                <div class="flex-auto"></div>
+
+                <!-- Login Button -->
+                <div class="flex flex-none items-center">
+                    <div class="flex w-[150px] justify-between">
+                        <div class="flex border border-gray-300 rounded-lg items-center p-1">
+                            <span class="material-symbols-outlined">login</span>
+                            <span class="text-xs font-semibold">ورود | ثبت نام</span>
+                        </div>
+                        <div class="text-gray-300">|</div>
+                        <div>
+                            <span class="material-symbols-outlined">shopping_cart</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Header Section : Menu and Location -->
+            <div class="flex px-[20px] py-[10px]">
+                <!-- Menu -->
+                <div class="flex-none">
+                    <div class="flex gap-5">
+                        <div class="flex items-center border-e pe-4">
+                            <span class="text-[20px] material-symbols-outlined">menu</span>
+                            <span class="w-[3px]"></span>
+                            <span class="text-[16px]">دسته بندی کالاها</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-[16px] text-gray-600 material-symbols-outlined">percent</span>
+                            <span class="w-[3px]"></span>
+                            <span class="text-[12px] text-gray-600 font-semibold">شگفت انگیزها</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-[16px] text-gray-600 material-symbols-outlined">storefront</span>
+                            <span class="w-[3px]"></span>
+                            <span class="text-[12px] text-gray-600 font-semibold">سوپرمارکت</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-[16px] text-gray-600 material-symbols-outlined">redeem</span>
+                            <span class="w-[3px]"></span>
+                            <span class="text-[12px] text-gray-600 font-semibold">کارت هدیه</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span
+                                class="text-[16px] text-gray-600 material-symbols-outlined">local_fire_department</span>
+                            <span class="w-[3px]"></span>
+                            <span class="text-[12px] text-gray-600 font-semibold">پرفروش ترین ها</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Spacer -->
+                <div class="flex-auto"></div>
+
+                <!-- Select Location -->
+                <div class="flex-none">
+                    <div class="flex">
+                        <span class="text-[20px] material-symbols-outlined">location_on</span>
+                        <span class="w-[5px]"></span>
+                        <span class="text-[13px]">لطفا شهر خود را انتخاب کنید</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section Stories -->
+        <!-- You must use swiper for this part -->
+        <div class="container mx-auto flex py-4 gap-4 ">
+            <div class="flex w-[80px] h-[80px] items-center justify-center bg-pink-700 rounded-full">
+                <div class="flex w-[75px] h-[75px] items-center justify-center bg-white rounded-full">
+                    <img src="images/stories/st01.jpg" class="rounded-full w-[70px] h-[70px]" alt="">
+                </div>
+            </div>
+            <div class="flex w-[80px] h-[80px] items-center justify-center bg-pink-700 rounded-full">
+                <div class="flex w-[75px] h-[75px] items-center justify-center bg-white rounded-full">
+                    <img src="images/stories/st02.jpg" class="rounded-full w-[70px] h-[70px]" alt="">
+                </div>
+            </div>
+            <div class="flex w-[80px] h-[80px] items-center justify-center bg-pink-700 rounded-full">
+                <div class="flex w-[75px] h-[75px] items-center justify-center bg-white rounded-full">
+                    <img src="images/stories/st03.jpg" class="rounded-full w-[70px] h-[70px]" alt="">
+                </div>
+            </div>
+            <div class="flex w-[80px] h-[80px] items-center justify-center bg-pink-700 rounded-full">
+                <div class="flex w-[75px] h-[75px] items-center justify-center bg-white rounded-full">
+                    <img src="images/stories/st04.jpg" class="rounded-full w-[70px] h-[70px]" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- Section Slider -->
+        <!-- You must use swiper for this part -->
+        <div class="flex">
+            <img src="images/slide1.webp" class="object-cover" alt="">
+        </div>
+
+
+        <!-- Section Categories -->
+        <div class="flex flex-col p-2 mx-auto">
+            <div class="flex justify-center mb-3">
+                <span class="text-2xl font-medium">خرید براساس دسته بندی</span>
+            </div>
+            <div class="grid grid-cols-8 pt-1 m-6">
+                <div class="flex flex-col items-center p-[10px] text-center ">
+                    <img src="https://dkstatics-public.digikala.com/digikala-mega-menu/aba1e5dca8958ac1176e25cd194ff8ac622cd383_1692600155.png"
+                        class="rounded-full w-[70px] h-[70px]" alt="">
+                    <span>موبایل</span>
+                </div>
+                <div class="flex flex-col items-center p-[10px] text-center ">
+                    <img src="https://dkstatics-public.digikala.com/digikala-mega-menu/3582bbed0a53318c2332d2c79b051b226f02a3bb_1692600677.png"
+                        class="rounded-full w-[70px] h-[70px]" alt="">
+                    <span>کتاب، لوازم تحریر و هنر</span>
+                </div>
+                <div class="flex flex-col items-center p-[10px] text-center">
+                    <img src="https://dkstatics-public.digikala.com/digikala-mega-menu/8f80e75e4c2dca42ee0538e100c7a7b05455aa88_1692600287.png"
+                        class="rounded-full w-[70px] h-[70px]" alt="">
+                    <span>کالای دیجیتال</span>
+                </div>
+                <div class="flex flex-col items-center p-[10px] text-center">
+                    <img src="https://dkstatics-public.digikala.com/digikala-mega-menu/0c3cc1cb589df1c74c4ad95a742bb6df967956a8_1692600390.png"
+                        class="rounded-full w-[70px] h-[70px]" alt="">
+                    <span>خانه و آشپزخانه</span>
+                </div>
+                <div class="flex flex-col items-center p-[10px] text-center">
+                    <img src="https://dkstatics-public.digikala.com/digikala-mega-menu/c16b7dff700a9d99880174c32ec233d20ddb531c_1703057953.png"
+                        class="rounded-full w-[70px] h-[70px]" alt="">
+                    <span>لوازم خانگی برقی</span>
+                </div>
+                <div class="flex flex-col items-center p-[10px] text-center">
+                    <img src="https://dkstatics-public.digikala.com/digikala-mega-menu/5795b31a635f1e23df96a908c009f31744ede38f_1692600481.png"
+                        class="rounded-full w-[70px] h-[70px]" alt="">
+                    <span>مد و پوشاک</span>
+                </div>
+                <div class="flex flex-col items-center p-[10px] text-center">
+                    <img src="https://dkstatics-public.digikala.com/digikala-mega-menu/d17e98a20e1681c7bac5af856aa9552250ec9a96_1710666504.png"
+                        class="rounded-full w-[70px] h-[70px]" alt="">
+                    <span>ساعت، طلا و جواهرات</span>
+                </div>
+                <div class="flex flex-col items-center p-[10px] text-center">
+                    <img src="https://dkstatics-public.digikala.com/digikala-mega-menu/0cefa48f5c58adbbde8c5a76b22ee49de0e667f5_1692600876.png"
+                        class="rounded-full w-[70px] h-[70px]" alt="">
+                    <span>آرایشی بهداشتی</span>
+                </div>
+                <div class="flex flex-col items-center p-[10px] text-center">
+                    <img src="https://dkstatics-public.digikala.com/digikala-mega-menu/a8579f44936c7fdff292b005a5d927601cb67cb9_1714224510.jpg"
+                        class="rounded-full w-[70px] h-[70px]" alt="">
+                    <span>تجهیزات پزشکی و سلامت</span>
+                </div>
+                <div class="flex flex-col items-center p-[10px] text-center">
+                    <img src="https://dkstatics-public.digikala.com/digikala-mega-menu/1c44d5964f259e0725ec86ca9739de888f1862c7_1692600975.png"
+                        class="rounded-full w-[70px] h-[70px]" alt="">
+                    <span>ورزش و سفر</span>
+                </div>
+                <div class="flex flex-col items-center p-[10px] text-center">
+                    <img src="https://dkstatics-public.digikala.com/digikala-mega-menu/20c179dff5c513104599d33858b6b11e77ced9b4_1692601532.png"
+                        class="rounded-full w-[70px] h-[70px]" alt="">
+                    <span>کارت هدیه و گیفت کارت</span>
+                </div>
+                <div class="flex flex-col items-center p-[10px] text-center">
+                    <img src="https://dkstatics-public.digikala.com/digikala-mega-menu/da24c42172585abb0c328accf85d071049c4253e_1692600598.png"
+                        class="rounded-full w-[70px] h-[70px]" alt="">
+                    <span>کالاهای سوپرمارکتی</span>
+                </div>
+                <div class="flex flex-col items-center p-[10px] text-center">
+                    <img src="https://dkstatics-public.digikala.com/digikala-mega-menu/0c46d2532d61dd3a5b6a3afc17552c23c1b4d39e_1692600773.png"
+                        class="rounded-full w-[70px] h-[70px]" alt="">
+                    <span>اسباب بازی، کودک و نوزاد</span>
+                </div>
+                <div class="flex flex-col items-center p-[10px] text-center">
+                    <img src="https://dkstatics-public.digikala.com/digikala-mega-menu/5d89d5b168e5ed079d619181e849cc737ec42c8d_1692601067.png"
+                        class="rounded-full w-[70px] h-[70px]" alt="">
+                    <span>ابزار آلات و تجهیزات</span>
+                </div>
+                <div class="flex flex-col items-center p-[10px] text-center">
+                    <img src="https://dkstatics-public.digikala.com/digikala-mega-menu/4e985adcf61dd54d4d8abe725a62ba3990ea1eb1_1692601177.png"
+                        class="rounded-full w-[70px] h-[70px]" alt="">
+                    <span>خودرو و موتورسیکلت</span>
+                </div>
+                <div class="flex flex-col items-center p-[10px] text-center">
+                    <img src="https://dkstatics-public.digikala.com/digikala-mega-menu/af02140ea60e0fd478b09b279976a095c95615b6_1692601283.png"
+                        class="rounded-full w-[70px] h-[70px]" alt="">
+                    <span>محصولات بومی و محلی</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Section Best Selling Products -->
+        <div>
+            <!-- پرفروش ترین کالا ها را اینجا طراحی کنید -->
+        </div>
+
+
+        <!-- Section Suggested Products -->
+        <div class=" border rounded p-1">
+            <div class="flex p-2">
+                <div class="flex-auto"></div>
+                <div class="flex font-medium text-2xl ms-7">
+                    پرفروش ترین کالاها
+                </div>
+                <div class="flex-auto"></div>
+                <div class="flex text-blue-700">
+                    مشاهده همه
+                </div>
+            </div>
+            <div class="grid grid-cols-4">
+                <div class="m-1">
+                    <div class="items-center flex flex-row p-3 ">
+                        <div>
+                            <img src="https://dkstatics-public.digikala.com/digikala-products/9f47245fe80e369f6e336fe9fc967ad05dfdfcb2_1669442363.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+                                class="rounded-full w-[70px] h-[70px]" alt="">
+
+                        </div>
+
+                        <span class="text-sky-500 text-xl m-4">1</span>
+                        <div class="flex  w-[300px] p-3 border-b ">
+
+                            <P class="">رب گوجه فرنگی چین چین - 800 گرم</p>
+                        </div>
+                    </div>
+                    <div class="items-center flex flex-row p-3">
+                        <div>
+                            <img src="https://dkstatics-public.digikala.com/digikala-products/5a303470d30d4f6cbfbf1d15f60b16ad931d989a_1661770457.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+                                class="rounded-full w-[70px] h-[70px]" alt="">
+
+                        </div>
+                        <span class="text-sky-500 text-xl m-4">2</span>
+                        <div class="flex  w-[300px] p-3 border-b">
+
+                            <P class="">کالباس 90 درصد گوشت قرمز مهيا پروتئين - 250 گرم		</p>
+                        </div>
+                    </div>
+                    <div class="items-center flex flex-row p-3">
+                        <div>
+                            <img src="https://dkstatics-public.digikala.com/digikala-products/114916007.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+                                class="rounded-full w-[70px] h-[70px]" alt="">
+
+                        </div>
+
+                        <span class="text-sky-500 text-xl m-4">3</span>
+                        <div class="flex  w-[300px] p-3">
+
+                            <P class="">صابون گلنار مدل روغن نارگیل بسته 6 عددی</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-1">
+                    <div class="items-center flex flex-row p-3">
+                        <div>
+                            <img src="https://dkstatics-public.digikala.com/digikala-products/c4804fdd140a21f39cfb068c146192a9af8cefce_1638283241.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+                                class="rounded-full w-[70px] h-[70px]" alt="">
+
+                        </div>
+                        <span class="text-sky-500 text-xl m-4">4</span>
+                        <div class="flex  w-[300px] p-3 border-b">
+
+                            <P class="">کنسرو ماهی تن در روغن گالکسی - 180 گرم</p>
+                        </div>
+                    </div>
+                    <div class="items-center flex flex-row p-3">
+                        <div>
+                            <img src="https://dkstatics-public.digikala.com/digikala-products/ed8afbda0ca3181cb3f4c8738ccef0f69e59c7df_1651902831.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+                                class="rounded-full w-[70px] h-[70px]" alt="">
+
+                        </div>
+
+                        <span class="text-sky-500 text-xl m-4">5</span>
+                        <div class="flex  w-[300px] p-3 border-b">
+
+                            <P class="">کاغذ A4 کپی مکس مدل KNS بسته 500 عددی</p>
+                        </div>
+                    </div>
+                    <div class="items-center flex flex-row p-3">
+                        <div>
+                            <img src="https://dkstatics-public.digikala.com/digikala-products/2439525.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+                                class="rounded-full w-[70px] h-[70px]" alt="">
+
+                        </div>
+                        <span class="text-sky-500 text-xl m-4">6</span>
+                        <div class="flex  w-[300px] p-3">
+
+                            <P class="">برنج طارم ممتاز گلستان مقدار 1 کیلوگرم</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-1">
+                    <div class="items-center flex flex-row p-3 ">
+                        <div>
+                            <img src="https://dkstatics-public.digikala.com/digikala-products/e55544d826e7ffa3055b3f15f6cc1f496ef6fba2_1717331752.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+                                class="rounded-full w-[70px] h-[70px]" alt="">
+
+                        </div>
+
+                        <span class="text-sky-500 text-xl m-4">7</span>
+                        <div class="flex  w-[300px] p-3 border-b">
+
+                            <P class="">پوشک کودک مولفیکس سایز 4 بسته 34 عددی</p>
+                        </div>
+                    </div>
+                    <div class="items-center flex flex-row p-3">
+                        <div>
+                            <img src="https://dkstatics-public.digikala.com/digikala-products/cde99d2e60f78b3377104cc5155dbdac233676af_1629617120.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+                                class="rounded-full w-[70px] h-[70px]" alt="">
+
+                        </div>
+                        <span class="text-sky-500 text-xl m-4">8</span>
+                        <div class="flex  w-[300px] p-3 border-b">
+
+                            <P class=""> کنسرو ماهی تن در روغن گیاهی پیک - 180 گرم</p>
+                        </div>
+                    </div>
+                    <div class="items-center flex flex-row p-3">
+                        <div>
+                            <img src="https://dkstatics-public.digikala.com/digikala-products/896c6d6a8db6bb158832562f427ca9bf8c079acd_1708350135.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+                                class="rounded-full w-[70px] h-[70px]" alt="">
+
+                        </div>
+
+                        <span class="text-sky-500 text-xl m-4">9</span>
+                        <div class="flex  w-[300px] p-3">
+
+                            <P class="">پاستا رشته‌ای ساده اسپاگتی ساوین - 700 گرم</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-1">
+                    <div class="items-center flex flex-row p-3">
+                        <div>
+                            <img src="https://dkstatics-public.digikala.com/digikala-products/a11ef94c8f0d18fc52b6626275957f34e1ccae1c_1701173461.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+                                class="rounded-full w-[70px] h-[70px]" alt="">
+
+                        </div>
+                        <span class="text-sky-500 text-xl m-4">10</span>
+                        <div class="flex  w-[300px] p-3 border-b">
+
+                            <P class="">دوغ گاز دار تخمیری طبیعی هراز -1.5 لیتر</p>
+                        </div>
+                    </div>
+                    <div class="items-center flex flex-row p-3">
+                        <div>
+                            <img src="https://dkstatics-public.digikala.com/digikala-products/4879003.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+                                class="rounded-full w-[70px] h-[70px]" alt="">
+
+                        </div>
+
+                        <span class="text-sky-500 text-xl m-4">11</span>
+                        <div class="flex  w-[300px] p-3 border-b">
+
+                            <P class="">شامپو پرژک مدل سیر حجم 450 میلی لیتر</p>
+                        </div>
+                    </div>
+                    <div class="items-center flex flex-row p-3">
+                        <div>
+                            <img src="https://dkstatics-public.digikala.com/digikala-products/c246ef8527a12c2317d4abd90cc10b5710fcfe86_1706092121.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+                                class="rounded-full w-[70px] h-[70px]" alt="">
+
+                        </div>
+                        <span class="text-sky-500 text-xl m-4">12</span>
+                        <div class="flex  w-[300px] p-3">
+
+                            <P class="">روغن سرخ کردنی لایت طبیعت - 1.5 لیتر </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+</body>
+
+</html>
